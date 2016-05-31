@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" href="styles/site.css" />
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>This is my header</h1>
+            <nav>
+                <ul>
+                    <li>Menu Item 1</li>
+                    <li>Menu Item 2</li>
+                    <li>Menu Item 3</li>
+                </ul>
+            </nav>
+        </header>
+        <section id="main">
+            <p>Hi there, this is my  form</p>
+            <form action="Default.html" method="post" class="simple-form">
+                <label for="searchPhrase">Seach phrase</label>
+                <input type="text" name="searchPhrase" id="searchPhrase" /><br/>
+                <label for="langChoice">Language option</label>
+                <select name="langChoice" id="langChoice">
+                    <option>C#</option>
+                    <option>JavaScript</option>
+                    <option selected>VB</option>
+                    <option>Java</option>
+                    <option>Ruby</option>
+                </select><br/>
+                <label for="agreeTerms">Agree Terms?</label>
+                <input type="checkbox" name="agreeTerms" id="agreeTerms" checked="true" /><br/>
+                <input type="submit" value="Submit">
+            </form>
+            <button id="toggleButton">Toggle Button</button>
+            <div id="results">
+                This is where the results go...
+            </div>
+            <div id="results2">
+                This is where the jQuery results go...
+            </div><br />
+            <div id="results3">
+                This is where results3 go...
+            </div>
+        </section>
+        <footer>
+            &copy; 2016 Chuan Tan
+        </footer>
+    </div>
+
+    <script type="text/javascript" src="scripts/jquery-2.2.3.min.js"></script>
+    <script type="text/javascript" src="scripts/site.js"></script>
+</body>
+</html>
